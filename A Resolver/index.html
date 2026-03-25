@@ -7,7 +7,9 @@
   <title>Adiviná el número</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -32,7 +34,12 @@
       <input id="guessInput" type="number" placeholder="Escribe tu número" min="1" max="100" inputmode="numeric">
 
       <div class="controls">
-        <button id="guessBtn" class="btn">Adivinar</button>
+        <!-- From Uiverse.io by njesenberger -->
+        <button id="guessBtn" type="button" class="button">
+          <div class="button-top">Adivinar</div>
+          <div class="button-bottom"></div>
+          <div class="button-base"></div>
+        </button>
         <button id="resetBtn" class="btn ghost">Reiniciar</button>
       </div>
 
